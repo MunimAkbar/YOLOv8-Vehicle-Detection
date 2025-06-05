@@ -1,0 +1,9 @@
+train: C:\Users\cowlar\Downloads\YOLO_Models\VehiclesDetectionDataset\train\images
+val: C:\Users\cowlar\Downloads\YOLO_Models\VehiclesDetectionDataset\valid\images
+test: C:\Users\cowlar\Downloads\YOLO_Models\VehiclesDetectionDataset\test\images
+
+nc: 5
+names: ['Ambulance', 'Bus', 'Car', 'Motorcycle', 'Truck']
+
+#roboflow:
+  #url: https://universe.roboflow.com/roboflow-gw7yv/vehicles-openimages/dataset/1
