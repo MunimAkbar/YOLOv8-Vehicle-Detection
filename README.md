@@ -1,17 +1,25 @@
-# Vehicle Detection using YOLOv8
+# 🚗 Vehicle Detection using YOLOv8
 
 This project detects vehicles in images and videos using a fine-tuned YOLOv8 model.
 
-## Folder Structure
-- `train_model.py`: Train YOLOv8 on custom dataset
-- `predict_images.py`: Run detection on images
-- `predict_videos.py`: Run detection on videos
-- `dataset.yaml`: Dataset configuration
-- `VehiclesDetectionDataset/`: Custom dataset (train/val/test)
+## 📁 Folder Structure
 
-## Setup
+- `train_model.py`: Script to train YOLOv8 on the custom dataset  
+- `predict_images.py`: Script to run detection on images  
+- `predict_video.py`: Script to run detection on videos  
+- `validate_model.py`: Script to validate the trained model  
+- `export_model.py`: Export the model to ONNX format  
+- `dataset.yaml`: Dataset configuration file  
+- `requirements.txt`: Python dependencies  
+- `VehiclesDetectionDataset/`: Directory for your custom dataset (train/val/test)
+
+## ⚙️ Setup
+
+Make sure you have Python installed. Then, install all required packages:
+
 ```bash
 pip install -r requirements.txt
+
 
 ## 📦 Dataset
 
@@ -19,4 +27,15 @@ The dataset used for training the vehicle detection model can be downloaded from
 
 🔗 [Download Dataset from Roboflow](https://universe.roboflow.com/roboflow-gw7yv/vehicles-openimages/dataset/1)
 
-After downloading, extract the contents and place them in a folder named `dataset` in the root directory of this repository. Make sure the `dataset.yaml` file is correctly configured to point to the dataset's structure.
+After downloading, follow these steps:
+
+```bash
+# Step 1: Download and unzip the dataset
+# (Use your browser or wget if direct download link is available)
+
+# Step 2: Move the extracted folder to the root directory of the project
+mv path_to_extracted_folder ./dataset
+
+# Step 3: Ensure dataset.yaml is correctly configured
+# Open dataset.yaml and check paths for train, val, and test
+
