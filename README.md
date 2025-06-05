@@ -20,14 +20,14 @@ The dataset used for training the vehicle detection model can be downloaded from
 🔗 [Download Dataset from Roboflow](https://universe.roboflow.com/roboflow-gw7yv/vehicles-openimages/dataset/1)
 
 After downloading, follow these steps:
-# Step 1: Download and unzip the dataset
-# (Use your browser or wget if direct download link is available)
+Step 1: Download and unzip the dataset
+(Use your browser or wget if direct download link is available)
 
-# Step 2: Move the extracted folder to the root directory of the project
+Step 2: Move the extracted folder to the root directory of the project
 mv path_to_extracted_folder ./dataset
 
-# Step 3: Ensure dataset.yaml is correctly configured
-# Open dataset.yaml and check paths for train, val, and test
+Step 3: Ensure dataset.yaml is correctly configured
+Open dataset.yaml and check paths for train, val, and test
 
 ## ⚙️ Setup
 
