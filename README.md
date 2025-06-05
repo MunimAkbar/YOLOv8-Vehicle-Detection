@@ -30,20 +30,6 @@ mv path_to_extracted_folder ./dataset
 Step 3: Ensure dataset.yaml is correctly configured
 Open dataset.yaml and check paths for train, val, and test
 
-Make sure the folder structure looks like this:
-
-dataset/
-├── train/
-│   ├── images/
-│   └── labels/
-├── val/
-│   ├── images/
-│   └── labels/
-├── test/
-│   ├── images/
-│   └── labels/
-
-
 ## ⚙️ Setup
 
 Make sure you have Python installed. Then, install all required packages:
