@@ -10,7 +10,7 @@ The model has been trained on a custom dataset consisting of five vehicle classe
 - `predict_images.py`: Script to run detection on images  
 - `predict_video.py`: Script to run detection on videos  
 - `validate_model.py`: Script to validate the trained model  
-- `export_model.py`: Export the model to ONNX format  
+- `export_model.py`: Export the model to other formats  
 - `dataset.yaml`: Dataset configuration file  
 - `requirements.txt`: Python dependencies  
 - `VehiclesDetectionDataset/`: Directory for your custom dataset (train/val/test)
