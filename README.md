@@ -1,6 +1,8 @@
 # 🚗 Vehicle Detection using YOLOv8
 
-This project detects vehicles in images and videos using a fine-tuned YOLOv8 model.
+This project implements a vehicle detection system using a fine-tuned YOLOv8 model. 
+The model has been trained on a custom dataset consisting of five vehicle classes: **Car, Bus, Truck, Motorcycle, and Van**. It is capable of accurately identifying and localizing these vehicles in both images and videos.
+
 
 ## 📁 Folder Structure
 
