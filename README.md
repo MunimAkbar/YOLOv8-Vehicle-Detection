@@ -20,7 +20,6 @@ Make sure you have Python installed. Then, install all required packages:
 ```bash
 pip install -r requirements.txt
 
-
 ## 📦 Dataset
 
 The dataset used for training the vehicle detection model can be downloaded from the link below:
@@ -38,4 +37,3 @@ mv path_to_extracted_folder ./dataset
 
 # Step 3: Ensure dataset.yaml is correctly configured
 # Open dataset.yaml and check paths for train, val, and test
-
