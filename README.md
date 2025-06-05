@@ -13,13 +13,6 @@ This project detects vehicles in images and videos using a fine-tuned YOLOv8 mod
 - `requirements.txt`: Python dependencies  
 - `VehiclesDetectionDataset/`: Directory for your custom dataset (train/val/test)
 
-## ⚙️ Setup
-
-Make sure you have Python installed. Then, install all required packages:
-
-```bash
-pip install -r requirements.txt
-
 ## 📦 Dataset
 
 The dataset used for training the vehicle detection model can be downloaded from the link below:
@@ -27,8 +20,6 @@ The dataset used for training the vehicle detection model can be downloaded from
 🔗 [Download Dataset from Roboflow](https://universe.roboflow.com/roboflow-gw7yv/vehicles-openimages/dataset/1)
 
 After downloading, follow these steps:
-
-```bash
 # Step 1: Download and unzip the dataset
 # (Use your browser or wget if direct download link is available)
 
@@ -37,3 +28,10 @@ mv path_to_extracted_folder ./dataset
 
 # Step 3: Ensure dataset.yaml is correctly configured
 # Open dataset.yaml and check paths for train, val, and test
+
+## ⚙️ Setup
+
+Make sure you have Python installed. Then, install all required packages:
+
+```bash
+pip install -r requirements.txt
