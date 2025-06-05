@@ -1,6 +1,6 @@
-train: C:\Users\cowlar\Downloads\YOLO_Models\VehiclesDetectionDataset\train\images
-val: C:\Users\cowlar\Downloads\YOLO_Models\VehiclesDetectionDataset\valid\images
-test: C:\Users\cowlar\Downloads\YOLO_Models\VehiclesDetectionDataset\test\images
+train: C:\Users\Downloads\YOLO_Models\VehiclesDetectionDataset\train\images
+val: C:\Users\Downloads\YOLO_Models\VehiclesDetectionDataset\valid\images
+test: C:\Users\Downloads\YOLO_Models\VehiclesDetectionDataset\test\images
 
 nc: 5
 names: ['Ambulance', 'Bus', 'Car', 'Motorcycle', 'Truck']
